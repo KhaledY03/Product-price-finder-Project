@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "GPT Creator"
+  },
+  "description": "Finds and compares offers for your product in your chosen city, showing verified prices, delivery costs and purchase links.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "capabilities": [
+          "skills"
+        ],
+        "category": "Other",
+        "composerIcon": "./assets/gpt-icon.png",
+        "defaultPrompt": [],
+        "developerName": "GPT Creator",
+        "displayName": "Product Price Finder 2",
+        "logo": "./assets/gpt-icon.png",
+        "longDescription": "Finds and compares offers for your product in your chosen city, showing verified prices, delivery costs and purchase links.",
+        "shortDescription": "Finds and compares offers for your product in your chosen city, showing verified prices, delivery costs and purchase links."
+      }
+    }
+  },
+  "name": "gpt-dd99b52dc96f74224dcce42338b5b132",
+  "version": "0.1.1+bundle.36e14ab3516e421a29ea03e805ca8e69"
+}
